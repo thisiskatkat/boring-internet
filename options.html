@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Boring Internet</title>
+	<link rel="stylesheet" href="css/options.css">
+</head>
+<body>
+
+<div class="page">
+
+	<header>
+		<figure>
+			<img src="images/icon128.png" alt="The Boring Internet">
+		</figure>
+		<h1>The Boring internet</h1>
+		<h2>Hiding links for you since 2015.</h2>
+	</header>
+
+	<div class="main">
+
+		<div id="addLink">
+			http(s)://(www.) <input type="text" name="newlink"> /
+			<button class="add" data-status="Link added.">Add site</button>
+		</div>
+
+		<div class="intro">
+			<p>Just add website domains like 'buzzfeed.com'. Do not worry about 'www' or 'https'. Some sites also use URL shorteners like 'bzfd.it', you'll need to add them too.</p>
+			<p>Works on Twitter. Works on Facebook on a basic level.</p>
+		</div>
+
+		<div id="editLinks">
+			<h3>Blocked websites</h3>
+			<!--div class="status"></div-->
+			<ul id="links"></ul>
+		</div>
+
+	</div>
+
+	<footer>
+		<p>Made by <a href="https://twitter.com/thisiskatkat" target="_blank">@thisiskatkat</a></p>
+		<!--p>Code on <a href="" target="_blank">Github</a></p-->
+	</footer>
+
+</div>
+
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/options.js"></script>	
+</body>
+</html>
